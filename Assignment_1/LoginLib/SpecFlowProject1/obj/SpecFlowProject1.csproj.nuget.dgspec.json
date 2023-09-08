@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Training\\Phase_4\\Assignment_Phase_4\\Assignment_1\\LoginLib\\SpecFlowProject1\\SpecFlowProject1.csproj": {}
+  },
+  "projects": {
+    "D:\\Training\\Phase_4\\Assignment_Phase_4\\Assignment_1\\LoginLib\\LoginLib\\LoginLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Training\\Phase_4\\Assignment_Phase_4\\Assignment_1\\LoginLib\\LoginLib\\LoginLib.csproj",
+        "projectName": "LoginLib",
+        "projectPath": "D:\\Training\\Phase_4\\Assignment_Phase_4\\Assignment_1\\LoginLib\\LoginLib\\LoginLib.csproj",
+        "packagesPath": "C:\\Users\\Vasanth\\.nuget\\packages\\",
+        "outputPath": "D:\\Training\\Phase_4\\Assignment_Phase_4\\Assignment_1\\LoginLib\\LoginLib\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vasanth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Training\\Phase_4\\Assignment_Phase_4\\Assignment_1\\LoginLib\\SpecFlowProject1\\SpecFlowProject1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Training\\Phase_4\\Assignment_Phase_4\\Assignment_1\\LoginLib\\SpecFlowProject1\\SpecFlowProject1.csproj",
+        "projectName": "SpecFlowProject1",
+        "projectPath": "D:\\Training\\Phase_4\\Assignment_Phase_4\\Assignment_1\\LoginLib\\SpecFlowProject1\\SpecFlowProject1.csproj",
+        "packagesPath": "C:\\Users\\Vasanth\\.nuget\\packages\\",
+        "outputPath": "D:\\Training\\Phase_4\\Assignment_Phase_4\\Assignment_1\\LoginLib\\SpecFlowProject1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vasanth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Training\\Phase_4\\Assignment_Phase_4\\Assignment_1\\LoginLib\\LoginLib\\LoginLib.csproj": {
+                "projectPath": "D:\\Training\\Phase_4\\Assignment_Phase_4\\Assignment_1\\LoginLib\\LoginLib\\LoginLib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            },
+            "SpecFlow.Plus.LivingDocPlugin": {
+              "target": "Package",
+              "version": "[3.9.57, )"
+            },
+            "SpecFlow.xUnit": {
+              "target": "Package",
+              "version": "[3.9.40, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
