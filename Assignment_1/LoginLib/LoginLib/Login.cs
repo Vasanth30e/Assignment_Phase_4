@@ -9,15 +9,15 @@
         {
             if (string.IsNullOrWhiteSpace(Username) && string.IsNullOrWhiteSpace(Password))
             {
-                return "Provide Username and Password";
+                throw new ArgumentException("Both username and password are empty or null.");
             }
             else if (string.IsNullOrWhiteSpace(Username))
             {
-                return "Provide Username";
+                throw new ArgumentException("Username is empty or null.");
             }
             else if (string.IsNullOrWhiteSpace(Password))
             {
-                return "Provide Password";
+                throw new ArgumentException("Password is empty or null.");
             }
             else if (Username == "Sam" && Password == "sam@123")
             {

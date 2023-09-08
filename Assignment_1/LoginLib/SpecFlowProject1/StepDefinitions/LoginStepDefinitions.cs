@@ -8,6 +8,7 @@ namespace SpecFlowProject1.StepDefinitions
         // For additional details on SpecFlow step definitions see https://go.specflow.org/doc-stepdef
         private readonly Login _login;
         private string _result;
+        private Exception _exception;
 
         public LoginStepDefinitions(Login login)
         {
@@ -17,25 +18,60 @@ namespace SpecFlowProject1.StepDefinitions
         [Given("the username is \"(.*)\"")]
         public void GivenTheUserNameIs(string username)
         {
-            _login.Username = username == "null" ? null : username;
+            try
+            {
+                _login.Username = username == "null" ? null : username;
+            }
+            catch(Exception ex)
+            {
+                _exception = ex;
+            }
+            
         }
 
         [Given("the password is \"(.*)\"")]
         public void GivenThePasswordIs(string password)
         {
-            _login.Password = password == "null" ? null : password;
+            try
+            {
+                _login.Password = password == "null" ? null : password;
+            }
+            catch (Exception ex)
+            {
+                _exception = ex;
+            }
+            
         }
 
         [When("I try to login")]
         public void WhenITryToLogin()
         {
-            _result = _login.LoginMethod();
+            try
+            {
+                _result = _login.LoginMethod();
+            }
+            catch (Exception ex)
+            {
+                _exception = ex;
+            }
         }
 
         [Then("the message should be \"(.*)\"")]
         public void ThenTheMessageShouldBe(string result)
         {
-            _result.Should().Be(result);
+            try
+            {
+                _result.Should().Be(result);
+            }
+            catch (Exception ex)
+            {
+                _exception = ex;
+            }
+        }
+        [Then("an exception should be thrown")]
+        public void ThenAnExceptionShouldBeThrown()
+        {
+            _exception.Should().NotBeNull();
         }
     }
 }

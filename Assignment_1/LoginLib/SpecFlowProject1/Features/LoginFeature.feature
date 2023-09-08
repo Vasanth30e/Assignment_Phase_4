@@ -34,3 +34,10 @@ Scenario: Provide Username and Password
 	And the password is "null"
 	When I try to login
 	Then the message should be "Provide Username and Password" 
+
+Scenario: Invalid Login with Empty Username
+    Given the username is ""
+    And the password is "sam@123"
+    When I try to login
+    Then an exception should be thrown
+
