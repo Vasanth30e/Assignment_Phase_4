@@ -22,7 +22,7 @@ namespace UserAuthenticationTesting
         public void TestUserRegistration()
         {
             Assert.IsTrue(authenticator.RegisterUser("user1", "password1"));
-            Assert.IsFalse(authenticator.RegisterUser("user2", "password2")); // User already registered
+            Assert.IsFalse(authenticator.RegisterUser("user1", "password2")); // User already registered
         }
 
         [Test]
