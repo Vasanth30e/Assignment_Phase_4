@@ -1,0 +1,34 @@
+[
+  {
+    "BookId": "1",
+    "BookName": "Dragon Ball",
+    "AuthorName": "Akira Toriyama",
+    "PublisherName": "Shueisha",
+    "Price": "2500.9",
+    "Category": "Adventure"
+  },
+  {
+    "BookId": "2",
+    "BookName": "One Piece",
+    "AuthorName": "Eiichiro Oda",
+    "PublisherName": "Shueisha",
+    "Price": "2500.5",
+    "Category": "Adventure"
+  },
+  {
+    "BookId": "3",
+    "BookName": "Naruto",
+    "AuthorName": "Masashi Kishimoto",
+    "PublisherName": "Shueisha",
+    "Price": "2400.8",
+    "Category": "Adventure"
+  },
+  {
+    "BookId": "4",
+    "BookName": "Bleach",
+    "AuthorName": "Tite Kubo",
+    "PublisherName": "Shueisha",
+    "Price": "2400.9",
+    "Category": "Action"
+  }
+]
